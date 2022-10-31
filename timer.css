@@ -1,0 +1,65 @@
+html, body{
+text-align:center;
+padding:10px;
+}
+
+p {
+font-size:28px;
+border: 1px solid black;
+border-radius: 3px;
+padding:10px;
+}
+.timer{
+font-size: 28px;
+border: 1px solid #94d246;
+max-width:300px;
+text-align:center;
+  margin: auto;
+  width: 50%;
+border-radius:5px;
+}
+.drop-down{
+margin:10px;
+padding:5px 50px;
+border-radius:5px;
+font-size:18px;
+border-color: #94d246;
+}
+.drop-down:active{
+border-color: red;
+}
+
+button {
+padding: 10px 25px;
+font-size:18px;
+border: 1px solid black;
+border-radius:5px;
+margin:5px;
+}
+button:active{
+background-color: white;
+}
+
+input {
+margin:10px 3px;
+padding:5px;
+text-align:center;
+}
+
+.timer-stopped-pop-up {
+position:fixed;
+padding:5px;
+font-size:24px;
+left:46.3%;
+text-align:center;
+opacity:0;
+transition: opacity 0.5s ease;
+border: 1px solid green;
+border-radius:5px;
+background-color: #f2f8e7;
+
+}
+.timer-stopped-pop-up.active {
+opacity:1;
+transition: opacity 0.5s ease;
+}
